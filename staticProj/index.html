@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Electronics Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#signup">Signup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="caption">
+            <h2>Welcome to the Electronics Store</h2>
+            <p>Your one-stop shop for the latest and greatest in electronics.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="images/laptop.jpg" alt="Laptop">
+                    <h3>Laptop</h3>
+                    <p>High-performance laptops for all your needs.</p>
+                </div>
+                <div class="product">
+                    <img src="images/phone.jpg" alt="Smartphone">
+                    <h3>Smartphone</h3>
+                    <p>Latest smartphones with cutting-edge technology.</p>
+                </div>
+                <div class="product">
+                    <img src="images/tv.jpg" alt="Television">
+                    <h3>Television</h3>
+                    <p>Smart TVs with stunning visuals and sound.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a leading electronics store with a wide range of products to meet all your electronic needs.</p>
+            <p> Our mission is to provide high-quality products and exceptional customer service.</p>
+            <p>Welcome, where we are dedicated to empowering technology enthusiasts with the latest and greatest in electronics. As your trusted partner in innovative electronic solutions, we are committed to quality, innovation, and exceptional customer service. At our store, we connect you with cutting-edge technology for a smarter future, ensuring that technology meets convenience and innovation meets passion. Our mission is to make technology accessible, affordable, and enjoyable for everyone, bringing you the best in electronics, one gadget at a time. Join us on this exciting journey as we drive forward with a passion for technology and a commitment to excellence, making us your go-to destination for the latest trends in electronics.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="thankcon.html" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="login">
+        <div class="container">
+            <h2>Login</h2>
+            <form action="#home">
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" name="login-email" required>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="login-password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="signup">
+        <div class="container">
+            <h2>Signup</h2>
+            <form action="thankyou.html" method="get">
+                <label for="signup-name">Name:</label>
+                <input type="text" id="signup-name" name="signup-name" required>
+                <label for="signup-email">Email:</label>
+                <input type="email" id="signup-email" name="signup-email" required>
+                <label for="signup-password">Password:</label>
+                <input type="password" id="signup-password" name="signup-password" required>
+                <button type="submit">Signup</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Electronics Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
